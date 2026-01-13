@@ -1,6 +1,6 @@
-## Hi there 👋
 
-<!--# ceg2350 - lab 1 work
+
+#ceg2350 - lab 1 work
 
 - Bodie Johnson
 - IT & Cybersecurity
