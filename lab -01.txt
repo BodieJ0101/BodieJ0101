@@ -1,0 +1,72 @@
+# Lab 01
+
+- Name:Bodie Johnson
+- Email:johnson.2299@wright.edu
+
+Instructions for this lab: https://pattonsgirl.github.io/CEG2350/Labs/Lab01/Instructions.html
+
+## Part 1 - GitHub Profile
+https://github.com/BodieJ0101/BodieJ0101
+1. 
+
+## Part 2 - Research
+
+| Windows | Linux / Mac | Action |
+| ---     | ---         | ---    |
+| help    | man         |   Show help and commands     |
+| Get-Location | pwd    |   display current directory     |
+| Get-ChildItem | ls    |    list files and directories    
+| mkdir   | mkdir       |  New directorty|
+| Set-Location | cd     |    change directory    |
+| New-Item | touch      |   create new file     |
+| Move-Item | mv        |    move or rename directory    |
+| Copy-Item | cp        |  copy a file or directory      |
+| Remove-Item | rm      |  delete a file or directory      |
+| notepad.exe | vim     |    looks like some sort of editor    |
+
+## Part 3 - Command Line Navigation
+
+My OS is:
+- [x] Windows
+- [] Linux
+- [] Mac
+
+My Command Line Shell is: 
+wsl2 ubuntu bash
+### Navigating My OS on the Command Line
+
+1. Full / absolute path to your user's home directory: /home/bodie
+2. Create a directory named `DirA`: mkdir DirA
+3. Create a directory named `Dir B`:mkdir "Dir B"
+4. Go into `DirA`:cd DirA
+5. Go into `Dir B` from `DirA`: cd ../"Dir B" asked geeks4geeks how to go into another directory while in one 
+6. Return to your user's home directory:cd ~
+7. Create a file named `test.txt`: touch test.txt
+8. Move the file named `test.txt` into `DirA`: mv test.txt DirA/
+9. Contents of `test.txt`:
+``` was empty but added using echo "" > DirA/test.txt 
+Put your words here
+``` 
+Aura
+luminescent
+quantavious
+10. Make a copy of `test.txt` named `copy.txt` in `DirA`: cp DirA/test.txt DirA/copy.txt
+11. View the contents of `DirA`: ls DirA contents are copy.txt test.txt
+12. Make a copy of `test.txt` in `Dir B` named `fodder.txt`:cp DirA/test.txt "Dir B/fodder.txt"
+
+13. Delete / remove both `fodder.txt` AND `Dir B`: rm "dir B" and rm fooder.txt couldnt get both at same time 
+
+
+## Citations
+https://www.geeksforgeeks.org/linux-unix/cp-command-linux-examples/ showed me how to copy a file into a diffrent directory and change the name of that file
+https://www.howtogeek.com/append-text-to-files-on-linux/ how to create text file and view it
+https://www.geeksforgeeks.org/linux-unix/dir-command-in-linux-with-examples/ list files and how to change order and things like that
+To add citations, provide the site and a summary of what it assisted you with.  If generative AI was used, include which generative AI system was used and what prompt(s) you fed it.
+
+
+
+
+
+
+
+-->
